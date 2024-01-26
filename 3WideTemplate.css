@@ -3,19 +3,87 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -23,78 +91,118 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
-ol, ul {
+
+ol,
+ul {
 	list-style: none;
 }
-blockquote, q {
+
+blockquote,
+q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
 
+/* END CSS RESET */
+
 .outerTableWrapper {
-    width: 50px
+	text-align: center;
+	border: 1px solid black;
+	width: 500px;
+	margin: 0 auto;
 }
 
 .outerTable {
-    margin: 0 auto;
+	margin: 0 auto;
+}
+
+.outerTable > tr > td {
+  border: 1px solid black;
+  margin: 4px;
 }
 
 .headerRow {
-    width: 100%;
+	width: 100%;
+  border: 1px solid black;
+
 }
 
 .contentRow {
-    width: 100%;
+	width: 100%;
+  border: 1px solid black;
+
 }
 
 .allEqual {
-    width: 100%;
+	width: 100%;
 }
 
 .leftLarge {
-    width: 100%;
+	width: 100%;
 }
 
 .leftSmall {
-    width: 100%;
+	width: 100%;
 }
 
 .rightLarge {
-    width: 100%;
+	width: 100%;
 }
 
 .rightSmall {
-    width: 100%;
+	width: 100%;
+}
+
+.tableCell {
+  border: 1px solid black;
+  padding: 4px;
 }
 
 .single {
-    width: 100%;
+	width: 100%;
+
 }
 
 .oneWide {
-    color: red;
+	color: red;
 }
 
 .twoWide {
-    color: blue;
+	color: blue;
+
 }
 
 .threeWide {
-    color: green;
+	color: green;
 }
